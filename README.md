@@ -36,7 +36,7 @@ Then, you can test the model by saving the pre-trained weights in the directory 
 To briefly test our method given the pre-trained model, we provided the toy example in the directory './data/'.
 
 ## Citations
-
+fdffdfdf
 ```
 @article{kim2024cdarl,
 title = {C-DARL: Contrastive diffusion adversarial representation learning for label-free blood vessel segmentation},
