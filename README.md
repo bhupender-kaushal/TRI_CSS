@@ -1,9 +1,9 @@
-# MEDIA_CDARL
-Official repository for "C-DARL: Contrastive diffusion adversarial representation learning for label-free blood vessel segmentation" published in Medical Image Analysis.
+# Self Tri-CSS
+Official repository for "Self Tri-CSS: Self supervised triplet attention based channel selective segmentation of X-Ray angiograms
 
 [[arXiv](https://arxiv.org/abs/2308.00193)][[Medical Image Analysis](https://www.sciencedirect.com/science/article/pii/S1361841523002827?dgcid=coauthor)]
 
-![Image of The Proposed method](fig/method.png)
+![Image of The Proposed method](fig/Overall_Architecture.png)
 
 ## Requirements
   * OS : Ubuntu
@@ -20,7 +20,7 @@ To train our model, run this command:
 ```train
 python3 main.py -p train -c config/train.json
 ```
-
+<!-- 
 ## Test
 
 To test the trained our model, run:
@@ -49,4 +49,4 @@ doi = {https://doi.org/10.1016/j.media.2023.103022},
 author = {Boah Kim and Yujin Oh and Bradford J. Wood and Ronald M. Summers and Jong Chul Ye}
 }
 ```
-
+ -->
