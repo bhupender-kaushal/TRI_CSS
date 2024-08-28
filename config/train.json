@@ -1,0 +1,69 @@
+{
+    "name": "training_on",
+    "phase": "train",
+    "gpu_ids": [
+        1
+    ],
+    "display_port": 8097,
+    "path": {
+        "log": "logs",
+        "tb_logger": "tb_logger",
+        "results": "results",
+        "checkpoint": "checkpoint",
+        "resume_state": null
+    },
+    "datasets": {
+        "train": {
+            "name": "XCAD",
+            "dataroot": "/data/Dataset_XCAD/",
+            "batch_size": 1,
+            "centered": true,
+            "num_workers": 4,
+            "use_shuffle": true
+        },
+        "val": {
+            "name": "XCAD",
+            "dataroot": "/data/Dataset_XCAD/",
+            "data_len": 3
+        }
+    },
+    "model": {
+        "finetune_norm": false,
+        "unet": {
+            "in_channel": 1,
+            "out_channel": 1,
+            "inner_channel": 64,
+            "channel_multiplier": [
+                1,
+                1,
+                2,
+                2,
+                4,
+                4
+            ],
+            "attn_res": [
+                16
+            ],
+            "res_blocks": 2,
+            "dropout": 0 
+        },
+ 
+        "genmodel": {
+            "image_size": 256,
+            "channels": 1,
+            "conditional": false
+        }
+    },
+    "train": {
+        "n_epoch": 150,
+        "val_freq": 1,
+        "save_checkpoint_epoch": 5,
+        "print_freq": 1,
+        "lambda_NCE": 4e-4,
+        "beta_bce":1.0,
+        "optimizer": {
+            "type": "adam",
+            "lr": 1e-5
+        }
+    }
+}

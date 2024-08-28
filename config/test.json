@@ -1,0 +1,62 @@
+{
+    "name": "testing_on",
+    "phase": "test",
+    "gpu_ids": [
+        3
+    ],
+    "display_port": 8097,
+    "path": {
+        "log": "logs",
+        "tb_logger": "tb_logger",
+        "results": "results",
+        "checkpoint": "checkpoint",
+        "resume_state": "path to the model (.pth file)"
+    },
+    "datasets": {
+        "train": {
+            "name": "XCAD",
+            "dataroot": "/data/Dataset_XCAD/",
+            "batch_size": 1,
+            "centered": true,
+            "num_workers": 8,
+            "use_shuffle": true
+        },
+        "test": {
+            "name": "XCAD",
+            "dataroot": "/data/Dataset_XCAD/",
+            "data_len": 3
+        }
+    },
+    "model": {
+
+        "unet": {
+            "in_channel": 1,
+            "out_channel": 1,
+            "inner_channel": 64,
+            "channel_multiplier": [
+                1,
+                1,
+                2,
+                2,
+                4,
+                4
+            ],
+            "attn_res": [
+                16
+            ],
+            "res_blocks": 2,
+            "dropout": 0 
+        },
+            "test": {
+                "schedule": "linear",
+                "n_timestep": 2000,
+                "linear_start": 1e-6,
+                "linear_end": 1e-2
+            }
+        },
+        "genmodel": {
+            "image_size": 256,
+            "channels": 1,
+            "conditional": false
+        }
+}
