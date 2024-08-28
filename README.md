@@ -5,13 +5,13 @@ Official repository for "Self Tri-CSS: Self supervised triplet attention based c
 Please hold on for more information. 
 ![Image of The Proposed method](fig/Overall_Architecture.png)
 
-## Requirements
+<!-- ## Requirements
   * OS : Ubuntu
   * Python >= 3.9
   * PyTorch >= 1.12.1
 
 ## Data
-In our experiments, we used the publicly available XCAD dataset. Please refer to our main paper.
+In our experiments, we used the publicly available XCAD dataset. Please refer to our main paper. -->
 
 ## Training
 
