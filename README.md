@@ -3,7 +3,7 @@ Official repository for "Self Tri-CSS: Self supervised triplet attention based c
 
 <!-- [[arXiv](https://arxiv.org/abs/2308.00193)][[Medical Image Analysis](https://www.sciencedirect.com/science/article/pii/S1361841523002827?dgcid=coauthor)] -->
 Please hold on for more information. 
-![Image of The Proposed method](fig/Overall_Architecture.png)
+<!-- ![Image of The Proposed method](fig/Overall_Architecture.png) -->
 
 <!-- ## Requirements
   * OS : Ubuntu
@@ -14,12 +14,12 @@ Please hold on for more information.
 In our experiments, we used the publicly available XCAD dataset. Please refer to our main paper. -->
 
 ## Training
-
+<!-- 
 To train our model, run this command:
 
 ```train
 python3 main.py -p train -c config/train.json
-```
+``` -->
 <!-- 
 ## Test
 
