@@ -83,7 +83,7 @@ def init_weights(net, init_type='kaiming', scale=1, std=0.02):
 # Generator
 def define_G(opt):
     model_opt = opt['model']
-    from .tricss_modules import css_generator as css_gen
+    from .segt_modules import css_generator as css_gen
 
     from .spade_modules.SPADE.generator import SPADEGenerator
 
