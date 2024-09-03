@@ -1,9 +1,9 @@
 # Self Tri-CSS
 Official repository for "Self Tri-CSS: Self supervised triplet attention based channel selective segmentation of X-Ray angiograms
 
-<!-- [[arXiv](https://arxiv.org/abs/2308.00193)][[Medical Image Analysis](https://www.sciencedirect.com/science/article/pii/S1361841523002827?dgcid=coauthor)] -->
+[[arXiv](https://arxiv.org/abs/2308.00193)][[Medical Image Analysis](https://www.sciencedirect.com/science/article/pii/S1361841523002827?dgcid=coauthor)]
 Please hold on for more information. 
-<!-- ![Image of The Proposed method](fig/Overall_Architecture.png) -->
+![Image of The Proposed method](fig/new_fig_all.pdf)
 
 <!-- ## Requirements
   * OS : Ubuntu
