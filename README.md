@@ -3,7 +3,7 @@ Official repository for "Self Tri-CSS: Self supervised triplet attention based c
 
 [[arXiv](https://arxiv.org/abs/2308.00193)][[Medical Image Analysis](https://www.sciencedirect.com/science/article/pii/S1361841523002827?dgcid=coauthor)]
 Please hold on for more information. 
-![Image of The Proposed method](fig/new_fig_all.pdf)
+![Image of The Proposed method](fig/Overall.png)
 
 <!-- ## Requirements
   * OS : Ubuntu
