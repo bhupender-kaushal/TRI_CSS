@@ -22,10 +22,10 @@ In our experiments, we used the publicly available XCAD dataset, available [[her
 python3 main.py -p train -c config/train.json
 ``` -->
 ## Test
-
+<!-- 
 ```
 eval python3 main.py -p test -c config/test.json
-```
+``` -->
 
 ## Pre-trained Models
 
