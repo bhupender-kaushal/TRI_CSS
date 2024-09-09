@@ -1,4 +1,4 @@
-# SegTriplet
+<!-- # SegTriplet
 Official repository for "SegTriplet: Self-Supervised Vessel Segmentation via Channel-Selective Triplet Attention Network
 ![Image of The Proposed method](fig/Overall.png)
 
@@ -15,7 +15,7 @@ Official repository for "SegTriplet: Self-Supervised Vessel Segmentation via Cha
 
 
 ## Data
-In our experiments, we used the publicly available XCAD dataset, available [[here](https://www.dropbox.com/scl/fi/mvstwdgxo0hfk678x94d4/XCAD.zip?rlkey=qdztml0gzfzoc0t5d16k71u76&e=1&dl=0)]
+<!-- In our experiments, we used the publicly available XCAD dataset, available [[here](https://www.dropbox.com/scl/fi/mvstwdgxo0hfk678x94d4/XCAD.zip?rlkey=qdztml0gzfzoc0t5d16k71u76&e=1&dl=0)] -->
 
 ## Training
 <!-- ```
